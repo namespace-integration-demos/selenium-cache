@@ -2,9 +2,7 @@ name: Selenium with caching
 
 on:
   push:
-    branches: ["main"]
   pull_request:
-    branches: ["main"]
   workflow_dispatch:
 
 jobs:
@@ -31,4 +29,6 @@ jobs:
       - run: chrome --version
 
       - name: Build with Maven
-        run: mvn -B clean test
+        run: |
+          mvn help:evaluate -Dexpression=settings.localRepository  
+          mvn -B clean test
