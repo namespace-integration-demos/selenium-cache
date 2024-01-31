@@ -24,8 +24,7 @@ jobs:
       - name: Setup Maven cache
         uses: namespacelabs/nscloud-cache-action@v1
         with:
-          path: |
-            /home/runner/.m2/repository
+          cache: maven
 
       - uses: browser-actions/setup-chrome@latest
       - run: chrome --version
