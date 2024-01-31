@@ -26,8 +26,8 @@ jobs:
         with:
           cache: maven
 
-        # Check preinstalled Chrome version
-      - run: chrome --version
+        # Check preinstalled Google Chrome version
+      - run: google-chrome --version
 
       - name: Build with Maven
         run: mvn -B clean test
