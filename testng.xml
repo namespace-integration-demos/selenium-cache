@@ -3,7 +3,7 @@
 <suite name="Selenium with TestNG">
   <test name="Login Test">
     <classes>
-      <class name="com.example.LoginPageTests" />
+      <class name="com.example.QuickstartPageTests" />
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

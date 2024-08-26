@@ -23,7 +23,7 @@ public class BaseTests {
             options.addArguments("--headless");
 	    driver = new ChromeDriver(options);
 	    driver.manage().window().maximize();
-	    driver.get("https://opensource-demo.orangehrmlive.com/");	    
+	    driver.get("https://namespace.so/docs/getting-started/quickstart");	    
 	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TIMEOUT));
 
     }
