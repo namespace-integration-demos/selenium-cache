@@ -9,6 +9,6 @@ public class QuickstartPageTests extends BaseTests{
     public void simpleTest() {
 	    QuickstartPage objLoginPage = new QuickstartPage(driver);
 
-    	Assert.assertEquals("Faster GitHub Actions", objLoginPage.GHAText.getText());    
+    	Assert.assertEquals("Accelerate Your GitHub Actions with Namespace", objLoginPage.GHAText.getText());
     }
 }

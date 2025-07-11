@@ -23,9 +23,8 @@ public class BaseTests {
             options.addArguments("--headless");
 	    driver = new ChromeDriver(options);
 	    driver.manage().window().maximize();
-	    driver.get("https://namespace.so/docs/getting-started/quickstart");	    
+	    driver.get("https://namespace.so/docs/solutions/github-actions");
 	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TIMEOUT));
-
     }
    
     @AfterMethod
