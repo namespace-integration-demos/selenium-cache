@@ -11,6 +11,6 @@ public class QuickstartPage extends BasePage{
 		
     }
 	
-    @FindBy(id = "faster-github-actions")
+    @FindBy(id = "accelerate-your-github-actions-with-namespace")
     public WebElement GHAText;
 }
